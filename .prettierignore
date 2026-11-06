@@ -1,0 +1,7 @@
+node_modules
+.next
+.local
+package-lock.json
+docs/HER-Design.md
+playwright-report
+test-results

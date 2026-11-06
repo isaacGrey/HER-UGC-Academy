@@ -1,0 +1,19 @@
+project_id = "her-opportunity-portal"
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+[db]
+port = 54322
+major_version = 17
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000/auth/callback"]
+enable_signup = false
+[auth.email]
+enabled = true
+enable_confirmations = true
+[storage]
+enabled = true
+file_size_limit = "5MiB"
