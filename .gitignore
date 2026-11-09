@@ -9,3 +9,15 @@ playwright-report/
 .local/
 supabase/.temp/
 supabase/.branches/
+node_modules/
+.env
+.env.*
+!.env.example
+.next/
+dist/
+build/
+coverage/
+.vercel/
+*.log
+*.pem
+*.key
